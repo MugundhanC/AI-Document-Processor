@@ -1,0 +1,85 @@
+Text:
+Bachelor of Engineering
+MERN Stack Developer
+EDUCATIONAL HISTORY
+Mahendra College of Engineering   |   2013 – 2017
+PROFESSIONAL EXPERIENCE
+Triotend Solutions ,Coimbatore  | June 2023 - Present
+Designed and developed a fully responsive landing
+page for a start-up using React.js and CSS.
+Integrated interactive elements like scroll animations
+and carousel sliders for better user engagement.
+Collaborated 
+with 
+designers 
+to 
+ensure 
+brand
+consistency and achieved a 95% performance score on
+Lighthouse.
+Built a visually appealing landing page using HTML5,
+CSS, and JavaScript.
+Implemented lead capture forms connected to a
+backend API powered by Node.js and MongoDB.
+MUGUNDHAN
+M E R N  S T A C K  D E V E L O P E R
+PERSONAL PROFILE
+Motivated MERN Stack Developer with 1+
+years of experience building scalable
+web applications and dynamic user
+interfaces. 
+Proficient 
+in 
+MongoDB,
+Express.js, React.js, and Node.js. Skilled
+at working in agile environments and
+collaborating 
+with 
+cross-functional
+teams to deliver high-quality products.
+CONTACT DETAILS
+TECHNICAL SKILLS
+LANGUAGES
+Tamil (Fluent)
+English (Intermediate)
+8526473884
+mugundhanc1996@gmail.com
+295, E.B Colony, Marandahalli,
+Dharmapuri (Dt)-636806
+Front-End: HTML, CSS, JavaScript, React.js
+Back-End: Node.js, Express.js
+Databases: MongoDB
+Version Control: Git, GitHub
+Tools:  Postman, Visual Studio Code
+Cloud Services: AWS (EC2, S3)
+AREAS OF EXPERTISE
+Web Development: Expertise in building responsive and
+dynamic web applications using HTML, CSS, JavaScript,
+and React.js.
+Front-End Development: Proficient in developing user-
+friendly interfaces with React.js
+Back-End Development: Skilled in creating robust RESTful
+APIs using Node.js and Express.js.
+Database 
+Management: 
+Hands-on 
+experience 
+with
+MongoDB 
+Agile Methodologies: Familiar with Agile workflows,
+including SCRUM, sprints, and JIRA for task management.
+MERN STACK INTERN
+Triotend Solutions, Coimbatore   | Dec 2022 - May 2023
+Collaborated with the development team to build and
+optimize web applications using the MERN stack. Assisted
+in designing RESTful APIs with Node.js and Express.js and
+implemented responsive front-end components using
+React.js. Worked on integrating MongoDB for efficient
+data storage and retrieval. Contributed to debugging,
+testing, and improving application performance, ensuring
+seamless user experiences.
+
+
+Forms:
+
+Tables:

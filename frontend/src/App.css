@@ -1,0 +1,369 @@
+/* ===== Light Mode (Default) ===== */
+:root {
+  /* Base Colors */
+  --body-bg: #F1F1F1;
+  --body-text: #2B2A2C;
+  --bg-color: #F1F1F1;
+  --text-color: #2B2A2C;
+  --text-secondary: #555555;
+  
+  /* Cards & Containers */
+  --card-bg: #FFFFFF;
+  --card-header-bg: #F9F9F9;
+  --border-color: #DDDDDD;
+  --divider-color: #5a59596d;
+  
+  /* Navigation */
+  --nav-link-color: #2B2A2C;
+  --nav-link-active: #EF6109;
+  --nav-link-hover: #EF6109;
+  
+  /* Buttons */
+  --btn-primary-bg: #007bff;
+  --btn-primary-hover: #0056b3;
+  --btn-success-bg: #28a745;
+  --btn-success-hover: #218838;
+  --btn-danger-bg: #EF6109;
+  --btn-danger-hover: #d9534f;
+  --btn-secondary-bg: #6c757d;
+  --btn-secondary-hover: #5a6268;
+  
+  /* Text Elements */
+  --text-line-bg: #f0f0f0; /* Light gray background */
+  --text-line-text: #333333; /* Dark text */
+  --text-line-hover-bg: #4169e1; /* Royal blue hover */
+  --text-line-hover-text: #ffffff; /* White text on hover */
+  
+  /* Tables */
+  --table-bg: #FFFFFF;
+  --table-header-bg: #F9F9F9;
+  --table-border: #DDDDDD;
+  --table-row-hover: #F0F0F0;
+  
+  /* Inputs */
+  --input-bg: #FFFFFF;
+  --input-border: #DDDDDD;
+  
+  /* Dropdown */
+  --dropdown-bg: #FFFFFF;
+  --dropdown-border: #DDDDDD;
+  
+  /* Pagination */
+  --pagination-color: #6c757d;
+  --pagination-hover: #007bff;
+  --pagination-active: #007bff;
+  --pagination-disabled: #CCCCCC;
+  
+  /* Drop Zones */
+  --drop-zone-bg: #f8f9fa;
+  --drop-zone-border: #0d6efd;
+  --drop-zone-hover: #e9ecef;
+}
+
+/* ===== Dark Mode ===== */
+[data-theme="dark"] {
+  /* Base Colors */
+  --body-bg: #121212;
+  --body-text: #F8F9FA;
+  --bg-color: #121212;
+  --text-color: #F8F9FA;
+  --text-secondary: #CCCCCC;
+  
+  /* Cards & Containers */
+  --card-bg: #1E1E1E;
+  --card-header-bg: #2A2A2A;
+  --border-color: #444444;
+  --divider-color: #555555;
+  
+  /* Navigation */
+  --nav-link-color: #E0E0E0;
+  --nav-link-active: #EF6109;
+  --nav-link-hover: #EF6109;
+  
+  /* Buttons */
+  --btn-primary-bg: #1A73E8;
+  --btn-primary-hover: #1765CC;
+  --btn-success-bg: #34A853;
+  --btn-success-hover: #2D9248;
+  --btn-danger-bg: #EF6109;
+  --btn-danger-hover: #D9534F;
+  --btn-secondary-bg: #5A6268;
+  --btn-secondary-hover: #484E53;
+  
+  /* Text Elements */
+  --text-line-bg: #2a2a2a; /* Dark gray background */
+  --text-line-text: #e0e0e0; /* Light gray text */
+  --text-line-hover-bg: #1a4b8c; /* Darker blue hover */
+  --text-line-hover-text: #ffffff; /* White text on hover */
+  
+  /* Tables */
+  --table-bg: #1E1E1E;
+  --table-header-bg: #2A2A2A;
+  --table-border: #444444;
+  --table-row-hover: #333333;
+  
+  /* Inputs */
+  --input-bg: #2D2D2D;
+  --input-border: #444444;
+  
+  /* Dropdown */
+  --dropdown-bg: #2A2A2A;
+  --dropdown-border: #444444;
+  
+  /* Pagination */
+  --pagination-color: #A0A0A0;
+  --pagination-hover: #1A73E8;
+  --pagination-active: #1A73E8;
+  --pagination-disabled: #555555;
+  
+  /* Drop Zones */
+  --drop-zone-bg: #2A2A2A;
+  --drop-zone-border: #1A73E8;
+  --drop-zone-hover: #333333;
+}
+
+/* ===== Base Styles ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--body-bg);
+  color: var(--body-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.main-div {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+ 
+.head-div {
+  border-style: none;
+}
+
+.card {
+  background-color: var(--card-bg);
+  border: solid 1px rgba(245, 245, 245, 0.733);
+  border-radius: 7px;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.card-header {
+  background-color: var(--card-header-bg);
+  color: var(--text-color);
+}
+.card-body {
+  background-color: var(--card-header-bg);
+  color: var(--text-color);
+}
+
+/* ===== Navigation Tabs ===== */
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  transition: background-color 0.3s ease;
+  color: var(--nav-link-color);
+  padding: 2px 12px;
+}
+
+.nav-tabs .nav-link.active {
+  color: var(--nav-link-active);
+  border-bottom: 2px solid var(--nav-link-active);
+  background: none;
+}
+
+.nav-tabs .nav-link:hover {
+  color: var(--nav-link-hover);
+}
+
+/* ===== Buttons ===== */
+.btn-down {
+  font-size: small;
+  background-color: var(--btn-danger-bg);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 4px 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-down:hover {
+  background-color: var(--btn-danger-hover);
+}
+
+.btn-down.btn-primary {
+  background-color: var(--btn-primary-bg);
+}
+
+.btn-down.btn-primary:hover {
+  background-color: var(--btn-primary-hover);
+}
+
+.btn-down.btn-success {
+  background-color: var(--btn-success-bg);
+}
+
+.btn-down.btn-success:hover {
+  background-color: var(--btn-success-hover);
+}
+
+.btn-down.btn-secondary {
+  background-color: var(--btn-secondary-bg);
+}
+
+.btn-down.btn-secondary:hover {
+  background-color: var(--btn-secondary-hover);
+}
+
+.btn {
+  border-radius: 5px;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* ===== Form Elements ===== */
+textarea {
+  resize: none;
+}
+
+input, select, textarea {
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  border: 1px solid var(--input-border);
+}
+
+/* ===== Drop Zone ===== */
+.drop-zone {
+  background-color: var(--drop-zone-bg);
+  border: 2px dashed var(--drop-zone-border);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.drop-zone:hover {
+  background-color: var(--drop-zone-hover);
+}
+
+/* ===== Scrollable Sections ===== */
+.scrollable-section {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* ===== Text Lines ===== */
+.text-line {
+  border-radius: 3px;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 12px;
+  font-weight: 600;
+  margin: 5px 0;
+  padding: 5px;
+  background-color: var(--text-line-bg);
+  color: var(--text-line-text);
+  transition: all 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.text-line:hover {
+  border-radius: 3px;
+  color: var(--text-line-hover-text);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: var(--text-line-hover-bg);
+  color: var(--text-line-hover-text);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+/* ===== Tables ===== */
+.key-value-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.key-value-table th,
+.key-value-table td {
+  border: 1px solid var(--table-border);
+  padding: 8px;
+  text-align: left;
+}
+
+.key-value-table th {
+  background-color: var(--table-header-bg);
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.key-value-table tr:hover {
+  background-color: var(--table-row-hover);
+  cursor: pointer;
+}
+
+.key-value-table td {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.table-header {
+  background-color: var(--table-header-bg);
+  padding: 10px;
+  border: 1px solid var(--table-border);
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 0;
+}
+
+/* ===== Pagination ===== */
+.minimal-btn {
+  background: none;
+  border: none;
+  color: var(--pagination-color);
+  padding: 0;
+  margin: 0 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.minimal-btn:hover {
+  color: var(--pagination-hover);
+}
+
+.minimal-btn.active {
+  color: var(--pagination-active);
+  font-weight: bold;
+}
+
+.minimal-btn:disabled {
+  color: var(--pagination-disabled);
+  cursor: not-allowed;
+}
+
+.minimal-btn.previous-next {
+  font-size: 20px;
+  margin: 0 8px;
+}
+
+/* ===== Dropdown Menu ===== */
+.dropdown-menu {
+  background-color: var(--dropdown-bg);
+  border: 1px solid var(--dropdown-border);
+}
+
+.dropdown-item {
+  color: var(--text-color);
+}
+
+.dropdown-item:hover {
+  background-color: var(--btn-primary-bg);
+  color: white;
+}
+
+/* ===== Transitions ===== */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
